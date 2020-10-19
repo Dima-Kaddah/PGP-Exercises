@@ -3,9 +3,10 @@
 // ex. isPalindrome('racecar') === 'true', isPalindrome('hello') == false
 
 function isPalindrome(str) {
-
-
-
+  const revString = str.split('').reverse().join('');
+  return revString === str;
 }
 const output = isPalindrome('racecar');
-console.log(output);
+const output2 = isPalindrome('hello');
+
+console.log(output, output2);
