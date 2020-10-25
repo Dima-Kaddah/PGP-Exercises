@@ -68,3 +68,22 @@ function mutation(arr) {
 }
 
 console.log(mutation(["hello", "hey"]));
+
+// Basic Algorithm Scripting: Chunky Monkey
+// Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a two-dimensional array.
+//5
+function chunkArrayInGroups(arr, size) {
+  const chunkedArr = [];
+  arr.forEach(val => {
+    const last = chunkedArr[chunkedArr.length - 1];
+    if (!last || last.length === size) {
+      chunkedArr.push([val]);
+    } else {
+      last.push(val);
+    }
+  });
+
+  return chunkedArr;
+}
+
+console.log(chunkArrayInGroups(["a", "b", "c", "d"], 2));
