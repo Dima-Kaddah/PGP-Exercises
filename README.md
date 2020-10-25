@@ -1,7 +1,8 @@
 # PGP-Exercises
 - PGP Exercises: Contains set of exercises about `JavaScript Cardio and Algorithms`
 
-## this Repo includes:
+## This Repo includes:
+### Click in week to show what Exercises are there!
 
 | Week | topics/exercises                                                                       | Repositories               |
 | ---- | ----------------------------------------------------------------------------------- | -------------------------- |
